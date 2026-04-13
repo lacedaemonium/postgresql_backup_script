@@ -35,8 +35,8 @@
 что пользователь, который указан в DATABASE_BACKUP_USER, должен иметь права на чтение/выгрузку таблиц из PostgreSQL.
 Соответствующие права можно выдать с помощью команд:
 ```
-GRANT USAGE ON SCHEMA public TO myuser;
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO myuser;
-GRANT SELECT ON ALL SEQUENCES IN SCHEMA public TO myuser;
+GRANT USAGE ON SCHEMA public TO DATABASE_BACKUP_USER;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO DATABASE_BACKUP_USER;
+GRANT SELECT ON ALL SEQUENCES IN SCHEMA public TO DATABASE_BACKUP_USER;
 ```
-выполнив их поочередно, подключившись в каждую из баз данных, которую планируется бэкапить.
+заменив DATABASE_BACKUP_USER на имя пользователя и выполнив команды поочередно, подключившись в каждую из баз данных, которую планируется бэкапить.
