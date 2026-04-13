@@ -23,12 +23,12 @@
 ## Запуск
 1. Сделайте скрипт исполняемым:
    ```bash
-   chmod +x backup_script.sh
+   chmod +x postgres_backup.sh
    ```
 
 2. Запуск:
    ```bash
-   ./backup_script.sh
+   ./postgres_backup.sh
    ```
 
 ## Cледует учитывать
