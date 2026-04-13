@@ -39,4 +39,4 @@ GRANT USAGE ON SCHEMA public TO myuser;
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO myuser;
 GRANT SELECT ON ALL SEQUENCES IN SCHEMA public TO myuser;
 ```
-выполнив их поочередно, подключившись в каждую из баз данных, которую планируется бэкапить, с помощью данного скрипта.
+выполнив их поочередно, подключившись в каждую из баз данных, которую планируется бэкапить.
